@@ -2,6 +2,7 @@ package com.kh.git;
 
 import com.kh.git.animal.Cat;
 import com.kh.git.animal.Dog;
+import com.kh.git.animal.Snake;
 
 public class Hellogit {
 	public static void main(String[] args) {
@@ -14,5 +15,9 @@ public class Hellogit {
 		//cat
 		Cat cat = new Cat();
 		cat.miao();
+		
+		// 뱀
+		Snake snake = new Snake();
+		snake.sound();
 	}
 }
