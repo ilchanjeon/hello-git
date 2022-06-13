@@ -3,6 +3,7 @@ package com.kh.git.animal;
 public class Dog {
 	
 	private String name;
+	private String breed; // animal branch에서 추
 	private String[] colors; // master branch에서 추
 	
 	public void bark() {
